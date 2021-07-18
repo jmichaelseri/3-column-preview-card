@@ -11,7 +11,6 @@ This is a solution to the [3-column preview card component challenge on Frontend
 - [Author](#author)
 
 ### The challenge
-
 Users should be able to:
 
 - View the optimal layout depending on their device's screen size
@@ -30,17 +29,17 @@ Users should be able to:
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
+- BEM approach
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+I learned how to use the BEM approach to add relevant blocks, elements and modifiers on the various HTML elements on the page. This makes writing CSS easier and more managable even though this is a small project.
 
-To see how you can add code snippets, see below:
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+I want to learn more about the typography and properly using the right font-weight, font-size etc..
 
 ## Author
 
 - Website - [Junior Seri](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@jmichaelseri](https://www.frontendmentor.io/profile/jmichaelseri)
+- Twitter - [@spiritencoded](https://twitter.com/spiritencoded)
