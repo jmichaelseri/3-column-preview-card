@@ -15,19 +15,21 @@
     --ff-text:'Lexend Deca';    
 }
 
+
 .card__container {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+
 }
 
 .card {
     padding: 1rem 2.5rem;
     height: 400px;
-    margin-left: 1rem;
-    margin-right: 1rem;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    flex: 0 1 300px;/* flex: flex-grow flex-shrink flex-basis */
 }
 
 .card__title {
@@ -48,23 +50,21 @@
 .card-sedan {
     background-color: var(--sedan-color);
     border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    margin-top: 1rem;
+    border-bottom-left-radius: 10px;
 }
 .card-suv {
     background-color: var(--suv-color);
 }
 .card-luxury {
     background-color: var(--luxury-color);
-    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
-    margin-bottom: 1rem;
 }
 
 
 
 .btn {
-    border-radius: 1.5rem;
+    border-radius: 2rem;
     padding: 0.8rem 0;
     width: 100%;
     max-width: 120px;
@@ -76,9 +76,49 @@
 .btn-sedan {
     color: var(--sedan-color);
 }
+.btn-sedan:hover {
+    background-color: var(--sedan-color);
+    color: var(--heading-button-color);
+    border: 1px solid white;
+}
+
 .btn-suv {
     color: var(--suv-color);
 }
+
+.btn-suv:hover {
+    background-color: var(--suv-color);
+    color: var(--heading-button-color);
+    border: 1px solid white;
+}
+
 .btn-luxury {
     color: var(--luxury-color);
+}
+
+.btn-luxury:hover {
+    background-color: var(--luxury-color);
+    color: var(--heading-button-color);
+    border: 1px solid white;
+}
+
+.attribution {
+    text-align: center;
+}
+
+@media (max-width: 600px){
+    .card-sedan {
+        background-color: var(--sedan-color);
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0px;
+        
+    }
+    .card-luxury {
+        background-color: var(--luxury-color);
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-top-right-radius: 0px;
+    }
+}
 }
