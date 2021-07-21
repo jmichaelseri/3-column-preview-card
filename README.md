@@ -27,7 +27,6 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
 - BEM approach
 ### What I learned
@@ -36,7 +35,7 @@ I learned how to use the BEM approach to add relevant blocks, elements and modif
 
 ### Continued development
 
-I want to learn more about the typography and properly using the right font-weight, font-size etc..
+I want to learn more about the typography and properly using the right font-weight, font-size etc.. I also need to learn more about accessibility and how to include this in the initial markup.
 
 ## Author
 

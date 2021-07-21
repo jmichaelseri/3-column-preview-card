@@ -84,7 +84,6 @@ main {
 .btn-sedan:hover {
     background-color: var(--sedan-color);
     color: var(--heading-button-color);
-    border: 1px solid white;
 }
 
 .btn-suv {
@@ -94,7 +93,6 @@ main {
 .btn-suv:hover {
     background-color: var(--suv-color);
     color: var(--heading-button-color);
-    border: 1px solid white;
 }
 
 .btn-luxury {
@@ -104,11 +102,18 @@ main {
 .btn-luxury:hover {
     background-color: var(--luxury-color);
     color: var(--heading-button-color);
-    border: 1px solid white;
 }
 
 .attribution {
     text-align: center;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+.attribution a {
+    color: hsl(228, 45%, 44%);
 }
 
 @media (max-width: 600px){
